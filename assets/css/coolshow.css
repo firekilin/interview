@@ -1,0 +1,131 @@
+.coolshow {
+    position: relative;
+    height: 0px;
+    overflow:hidden;
+    transition: all 2s ease;
+}
+
+.coolshow .long {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    top: 0px;
+}
+
+.coolshow .background {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}.item {
+    position: absolute;
+    width: 40%;
+    transition: all 1s ease;
+}
+
+.item.one {
+    right: -45%;
+    top: 50px;
+}
+
+.item.two {
+    top: 400px;
+    left: -45%;
+}
+
+.item.three {
+    right: -45%;
+    top: 600px;
+}
+
+.item.four {
+    top: 1200px;
+    left: -45%;
+}
+
+.item.five {
+    right: -45%;
+    top: 1000px;
+}
+
+.item.six {
+    left: -45%;
+    top: 1600px;
+}
+
+.item.seven {
+    right: -45%;
+    top: 1800px;
+}
+.normalgif {
+    width: 4%;
+    left: 48.5%;
+    z-index: 5;
+    position: absolute;
+	transition: all 0.5s ease;
+}
+.message {
+    opacity: 0;
+    position: absolute;
+    overflow: hidden;
+    left: 50%;
+    width: 300px;
+    height: 100px;
+    top: 3045px;
+    z-index: 5;
+    border-radius: 20px 20px 20px 0;
+    background: #ffffff6e;
+    transition: all 0.2s ease;
+    border: 2px black solid;
+}
+.mes {
+    position: absolute;
+    font-size: 20px;
+}
+.mesone {
+    opacity:0;
+	transition: all 0.2s ease;
+}
+.mestwo {
+    opacity:0;
+	transition: all 0.2s ease;
+}
+.mesthree {
+    opacity:0;
+	transition: all 0.2s ease;
+}
+.mesfour {
+    opacity:0;
+	transition: all 0.2s ease;
+}
+.mesfive {
+    opacity:0;
+	transition: all 0.2s ease;
+}
+.mincraftgif {
+    top: 2930px;
+    width: 4%;
+    left: 47%;
+    z-index: 5;
+    position: absolute;
+    transition: all 0.2s ease;
+}
+.touchup:hover {
+    background: #ffffff00;
+    color: #91f9fe;
+}
+.touchup {
+    position: absolute;
+    height: 175px;
+    width: 35%;
+    top: 6350px;
+    left: 35%;
+    background: #ffffff5c;
+    z-index: 5;
+    text-align: center;
+    padding-top: 175px;
+    font-size: 50px;
+    cursor: pointer;
+    transition: all 0.6s ease;
+}
