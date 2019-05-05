@@ -1,0 +1,92 @@
+.right-main {
+    position: absolute;
+    display: block;
+    width: calc(100% - 220px);
+    height: 100%;
+    top: 0px;
+    left: 210px;
+    overflow: hidden;
+    border-right: 5px #91f9fe solid;
+    border-bottom: 5px #91f9fe solid;
+    border-radius: 20px;
+    margin-top: -10px;
+    color: #91f9fe;
+}
+
+
+
+.right-inmain {
+    position: relative;
+    width: 100%;
+    height: 100%;
+	overflow:hidden;
+}
+.interest pre {
+	font-size: 30px;
+	width: 500px;}
+.qualities pre {
+    font-size: 30px;
+	width: 500px;
+}
+.special_exp tr:nth-child(2n-1) td {
+    border-bottom:5px #91f9fe solid;
+    border-radius: 0px;
+}
+.special_exp tr:nth-child(2n) td {
+    border-bottom:5px #fe9191 solid;
+    border-radius: 0px;
+}
+.special_exp tr td[rowspan] {
+    border-left:5px #91f9fe solid;
+    border-radius: 20px 0 0  20px;
+     border-bottom:5px #91f9fe solid;
+     
+}
+
+
+ .image {
+    position: absolute;
+    width: calc(100% - 500px);
+    height: 100%;
+    top: 0px;
+    right: 0px;
+    overflow: hidden;
+}
+
+.image img {
+    width: calc(100%/2 - 5px);
+    max-height: 80%;
+    height: auto;
+}
+.secondary pre {
+    font-size: 30px;
+    width: 500px;
+}
+.Vocational_college pre {
+    font-size: 20px;
+    width: 500px;
+}
+.Vocational_college .image {
+    position: absolute;
+    width: calc(100% - 650px);
+    height: 100%;
+    top: 0px;
+    right: 0px;
+    overflow: hidden;
+}
+.University pre {
+    font-size: 20px;
+    width: 500px;
+}
+.club pre {
+    font-size: 20px;
+    width: 500px;
+}
+
+#secondary-2 img {
+    width: calc((100% - 20px)/5);
+    border-radius: 20px;
+}
+#Vocational_college-2 img {
+    width: calc((100% - 30px)/7);
+}

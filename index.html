@@ -1,0 +1,300 @@
+<html>
+
+<head>
+    <style>
+
+
+    </style>
+	<link rel="stylesheet" href="assets/css/main.css">
+	<link rel="stylesheet" href="assets/css/menu.css">
+	<link rel="stylesheet" href="assets/css/left-side.css">
+	<link rel="stylesheet" href="assets/css/right-side.css">
+    <script src="assets/js/jquery-3.4.0.min.js"></script>
+    <script src="assets/js/coolshow.js"></script>
+	
+</head>
+
+<body>
+<div class="bg"></div>
+	<header>
+	 <img class="Namee" src="assets/img/Name.png">
+	</header>
+	<nav class="menu">
+		<ul>
+			<li><a  onclick="menu2('side-one')">個人檔案</a>
+				<ul>
+					<li><a onclick="menu('inmain-myself')">基本資料</a></li>
+					<li><a onclick="menu('interest')">興趣</a></li>
+					<li><a onclick="menu('qualities')">個人特質</a></li>
+				</ul>
+			</li>
+			<li><a  onclick="menu2('side-two')">個人經歷</a>
+				<ul>
+					<li><a onclick="menu('special_exp')">特殊經歷</a></li>
+						<li><a onclick="menu('secondary')">經歷</a>
+							<ul>
+								<li><a onclick="menu('secondary')">國中</a></li>
+								<li><a onclick="menu('Vocational_college')">高職</a></li>
+								<li><a onclick="menu('University')">大學</a></li>
+							</ul>
+						</li>
+						<li><a onclick="menu('club')">幹部及社團經驗</a></li>
+					
+				</ul>
+			</li>
+			<li><a   onclick="menu2('side-three')">獎狀及作品</a>
+				<ul>
+					<li><a onclick="menu('secondary-2')">國中</a></li>
+						<li><a onclick="menu('Vocational_college-2')">高職</a></li>
+						<li><a onclick="menu('University-2')">大學</a></li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
+	
+	<div class="main">
+		<div class="left-side">
+			<div id="side-one" class="left-inside one">
+				<nav class="menu2">
+					<ul>
+						<li><a onclick="menu('inmain-myself')">基本資料</a></li>
+						<li><a onclick="menu('interest')">興趣</a></li>
+						<li><a onclick="menu('qualities')">個人特質</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div id="side-two" class="left-inside two">
+				<nav class="menu2">
+					<ul>
+						<li><a onclick="menu('special_exp')">特殊經歷</a></li>
+						<li><a onclick="menu('secondary')">經歷</a>
+							<ul>
+								<li><a onclick="menu('secondary')">國中</a></li>
+								<li><a onclick="menu('Vocational_college')">高職</a></li>
+								<li><a onclick="menu('University')">大學</a></li>
+							</ul>
+						</li>
+						<li><a onclick="menu('club')">幹部及社團經驗</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div id="side-three" class="left-inside three">
+				<nav class="menu2">
+					<ul>
+						<li><a onclick="menu('secondary-2')">國中</a></li>
+						<li><a onclick="menu('Vocational_college-2')">高職</a></li>
+						<li><a onclick="menu('University-2')">大學</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<div class="right-main">
+			<div id="inmain-myself" class="right-inmain myself">
+				<table >
+					<tr>
+						<td class="imgmyself" rowspan="5">
+							<img src="assets\img/me.jpg">
+						</td>
+					</tr>
+					<tr>
+						<td >
+						姓名:王志翔
+						</td>
+					</tr>
+					<tr>
+						<td >
+						生日:1998/9/2
+						</td>
+					</tr>
+					<tr>
+						<td >
+						學校:中原大學
+						</td>
+					</tr>
+					<tr>
+						<td >
+						Email:wl00161839@gmail.com
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div id="interest" class="right-inmain interest">
+				<pre><br>&nbsp&nbsp興趣:<br>&nbsp&nbsp程式設計<br>&nbsp&nbsp&nbsp&nbsp-國中開始因為遊戲而自學程式<br>&nbsp&nbsp&nbsp&nbsp&nbsp1.楓之谷輔助器(外掛)<br>&nbsp&nbsp&nbsp&nbsp&nbsp2.楓之谷私服架設及修改<br>&nbsp&nbsp&nbsp&nbsp&nbsp3.創世神架設伺服器<br>&nbsp&nbsp&nbsp&nbsp&nbsp4.創世神插件及小遊戲製作<br>&nbsp&nbsp異世界輕小說<br>&nbsp&nbsp漫畫<br>&nbsp&nbsp動漫
+			
+				</pre>
+				<div class="image">
+				<br><br>
+					<img src="assets/img/game.png"/>
+					<img src="assets/img/game2.JPG"/>
+				
+				</div>
+			</div>
+			<div id="qualities" class="right-inmain qualities">
+				<pre><br>&nbsp&nbsp個人特質:<br>&nbsp&nbsp&nbsp&nbsp有積極心<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp-GO~GO~GO~~<br>&nbsp&nbsp&nbsp&nbsp愛幻想<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp-擁有奇怪的想像力<br>&nbsp&nbsp&nbsp&nbsp些許膽怯<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp-常常擔心失敗<br>&nbsp&nbsp&nbsp&nbsp些許自信<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp-在有把握的事情上XD。
+				</pre>
+				<div class="image">
+					<br>
+					<img src="assets/img/qu1.jpg"/>
+					<img src="assets/img/qu2.jpg"/>
+				
+				</div>
+			</div>
+			<div id="special_exp" class="right-inmain special_exp">
+				<table>
+					<tr>	<td rowspan=8>	國中	</td><td rowspan=3>	日常	</td><td>	製作 VB 遊戲相關小程式	</td></tr>
+<tr>					<td>	架設遊戲「楓之谷」私服	</td></tr>
+<tr>					<td>	修改他人提供之 VB 程式	</td></tr>
+<tr>			<td  rowspan=2>	活動	</td><td>	考取電腦軟體丙級	</td></tr>
+<tr>					<td>	技職合作參加電子電機及商業管理群各一學期	</td></tr>
+<tr>			<td  rowspan=3>	競賽	</td><td>	參加網界博覽會全國賽‐金牌	</td></tr>
+<tr>					<td>	參加網界博覽會國際賽‐銀牌	</td></tr>
+<tr>					<td>	技職合作競賽商業管理群‐佳作	</td></tr>
+<tr>	<td  rowspan=6>	高職	</td><td  rowspan=2>	日常	</td><td>	學習程式語言‐ActionScript 3.0、ASP、VB、 Excel‐VBA、HTML 等。	</td></tr>
+<tr>					<td>	製作專案‐企業網頁、取大到小 VBA、互動式訂餐 網頁、背單字 APP、電子書設計等。	</td></tr>
+<tr>			<td  rowspan=2>	暑期打工	</td><td>	中國父親工廠學習模具製作、UG 3D建模設計。	</td></tr>
+<tr>					<td>	東莞淞山湖「台灣青年創新創業服務中心」工作。	</td></tr>
+<tr>			<td  rowspan=2>	活動	</td><td>	參加中國的佛山 Startup Weekend	</td></tr>
+<tr>					<td>	在創業服務中心工作時與企業家們共同進行企業參訪	</td></tr>
+
+				</table>
+			</div>
+			<div id="secondary" class="right-inmain secondary">
+				<pre>
+　　參加網界博覽會全國賽‐金牌
+　　參加網界博覽會國際賽‐銀牌
+　　參加技職合作學程:
+　　	一學期電子電機系
+　　	一學期商業管理群
+　　參加技職商業管理群競賽-佳作
+　　考取電腦軟體丙級
+				</pre>
+				<div class="image">
+					<br>
+					<img src="assets/img/28.jpg"/>
+					<img src="assets/img/29.jpg"/>
+				
+				</div>
+			</div>
+			<div id="Vocational_college" class="right-inmain Vocational_college">
+			<pre>
+	高一上學期
+　	　	第二次期中考文書處理第一名
+		第二次期中考程式設計第四名
+		APP 程式設計培訓營六小時研習
+	高一下學期 
+		第一次期中考程式設計第一名
+		高一程式設計初階組第一名
+		校內網頁設計組第四名
+		行動電子書創作研習營六小時研習
+	高二下學期 
+		校內網頁設計組第一名
+		發現桃園之美創意行銷 APP  競賽第二名
+		高二程式設計進階組第三名
+		全國高中生多媒體 APP 競賽佳作
+		二年級組 50 公尺自由式第五名
+		互動式媒體 APP 開發設計師培訓營 3 小時研習
+		網站架設與網頁設計專題指導研習 12 小時研習
+		實踐大學社工系一日體驗營研習
+	高三下學期
+		校內專題製作競賽優勝
+				</pre>
+				<div class="image">
+					<br>
+					<img src="assets/img/28.jpg"/>
+					<img src="assets/img/29.jpg"/>
+				
+				</div>
+			</div>
+			<div id="University" class="right-inmain University">
+				<pre>
+				創造中.......
+				　　　／￣￣＼　　　　　　／￣￣＼
+				　　／　　　／ ￣￣￣￣￣ ＼　　　＼
+				　　 ＼＿／　　　　　　　　　＼＿／
+				　　     /　　∩　　　　 ∩　　　\
+				　     　▏    ╭————————╮     ▏
+				　     　▏　  ｜●     ●｜     ▏
+				         ▏　  ╰————————╯     ▏
+				　     　\　  　   ╰——╯　　　 /
+				　      　＼________________／  
+							豬年快樂....
+				</pre>
+			</div>
+			<div id="club" class="right-inmain club">
+			<pre>
+			
+			幹部						社團
+	
+		程式小老師 				程式設計集訓社
+			高一上學期、高一下學期			高一下學期
+			高二上學期、高二下學期			高二下學期
+		
+		實習股長      				二次元研究社		
+			高一上學期				高一上學期
+			高二下學期			
+							桌上遊戲社
+		風紀股長				        	高二上學期
+			高二上學期          
+		
+		服務股長
+			高一下學期
+		
+		安全股長
+			高三上學期
+</pre>
+			</div>
+				<div id="secondary-2" class="right-inmain secondary">
+					<img src="assets/img/24.jpg">
+					<img src="assets/img/25.jpg">
+					<img src="assets/img/26.jpg">
+					<img src="assets/img/27.jpg">
+					<img src="assets/img/28.jpg">
+					<img src="assets/img/29.jpg">
+					<img src="assets/img/30.jpg">
+					<img src="assets/img/31.jpg">
+			</div>
+			<div id="Vocational_college-2" class="right-inmain Vocational_college">
+					<img src="assets/img/1.jpg">
+					<img src="assets/img/2.jpg">
+					<img src="assets/img/3.jpg">
+					<img src="assets/img/4.jpg">
+					<img src="assets/img/5.jpg">
+					<img src="assets/img/6.jpg">
+					<img src="assets/img/7.jpg">
+					<img src="assets/img/8.jpg">
+					<img src="assets/img/9.jpg">
+					<img src="assets/img/10.jpg">
+					<img src="assets/img/11.jpg">
+					<img src="assets/img/12.jpg">
+					<img src="assets/img/13.jpg">
+					<img src="assets/img/14.jpg">
+					<img src="assets/img/15.jpg">
+					<img src="assets/img/16.jpg">
+					<img src="assets/img/17.jpg">
+					<img src="assets/img/18.jpg">
+					
+			</div>
+			<div id="University-2" class="right-inmain University">
+				<pre>
+					還沒過完呢
+				</pre>
+			</div>
+		</div>
+	</div>
+	<div class="footer" onclick="gogogo()">
+		<div class="ff">
+			▼
+		</div>
+
+	</div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
